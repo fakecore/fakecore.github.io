@@ -29,7 +29,7 @@ exclude:
 
 # Optimize Jekyl SEO Tag
 twitter:
-  username: vszhub
+  username: 
   card: summary
 logo: logo.png
 social:
