@@ -1,5 +1,5 @@
 # Setup
-title: FakeCore
+title: fakecore
 description: A personal blog for writing techs and logging life.
 url: https://fakecore.me
 avatar: /avatar.jpeg
@@ -52,6 +52,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: FakeCore
+  name: fakecore
   url: https://github.com/fakecore/
   email: flowunlight@gmail.com
