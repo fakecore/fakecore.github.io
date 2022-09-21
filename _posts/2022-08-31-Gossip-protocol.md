@@ -1,6 +1,6 @@
 ---
 layout: post
-title: mysql数据库事务详解
+title: Gossip Protocol
 date: 2022-08-31 12:00 +0800
 last_modified_at: 2022-08-31 01:08:25 +0800
 tags: [tech, mysql]
