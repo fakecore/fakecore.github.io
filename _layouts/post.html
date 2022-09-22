@@ -38,9 +38,15 @@ layout: default
   </br>
   ————————————————
   </br>
-  {% if post.author != empty and post.author != site.author.name %}
-    <p>版权声明：本文为「<a href="{{ post.author_url }}">{{ post.author }}</a>」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处 <a href="{{ post.article_link }}">链接</a>及本声明。</p>
-    <p>Copyright:This work's author is <a href="{{ post.author_url }}">{{ post.author }}</a>, and it is licensed under the CC 4.0 BY-SA License.
+  {% if page.author != null and page.author != empty and  page.author != site.author.name %}
+    <p>版权声明：本文为
+    {% if page.author_url != null  %}
+      「<a href="{{ page.author_url }}">{{ page.author }}</a>」
+    {% else %}
+      「{{ page.author }}」
+    {% endif %}
+      的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处 <a href="{{ page.article_link }}">链接</a>及本声明。</p>
+    <p>Copyright:This work's author is <a href="{{ page.author_url }}">{{ page.author }}</a>, and it is licensed under the CC 4.0 BY-SA License.
     Please remain the orginal link and the license.</p>
   {% else %}
     <p>版权声明：本文为「<a href="{{ site.author.url }}">{{ site.author.name }}</a>」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。</p>

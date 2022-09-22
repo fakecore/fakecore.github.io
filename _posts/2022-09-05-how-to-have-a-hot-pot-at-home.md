@@ -1,3 +1,12 @@
+---
+layout: post
+title:
+date: 2022-09-05 12:00:00 +0800
+last_modified_at: 2022-09-05 12:00:00 +0800
+tags: [life]
+author:
+author_url:
+---
 It's a guide for those who love hot pot but think it's expensive to go to a restaurant and want to make it at home.
 
 ## Step One
