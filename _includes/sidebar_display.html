@@ -1,0 +1,18 @@
+<header>
+  {% if site.avatar -%}
+    <div class="avatar-read">
+      {%- if site.avatar contains "://" -%}
+        {%- assign avatar = site.avatar -%}
+      {%- else -%}
+        {%- assign avatar = site.avatar | relative_url -%}
+      {%- endif -%}
+      <!-- return to main page -->
+      <a href="{{site.author.url}}">
+        <img src="{{ avatar }}" class="avatar-image-read" alt="{{ site.author.name }}">
+      </a>
+    </div>
+  {%- endif -%}
+    <div>
+      <a href="{{ "/" | relative_url }}" class="username-display">{{ site.title }}</a>
+    </div>
+</header>
