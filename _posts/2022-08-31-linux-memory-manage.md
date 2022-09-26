@@ -45,7 +45,7 @@ author_url:
 >
 > 6、根据物理地址读取数据
 >
-> 
+> 更加详细的说明.
 >
 > VA到PA的转换流程
 >
@@ -107,32 +107,16 @@ CPU试图用下面两种方法加速该过程。
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Others
 
 为了权衡性能和空间,Linux在v2.6.11以后，最终采用的方案是4级页表，分别是：
 
-PGD：page Global directory(47-39), 页全局目录
-PUD：Page Upper Directory(38-30)，页上级目录
-PMD：page middle directory(29-21)，页中间目录
-PTE：page table entry(20-12)，页表项
+PGD： page Global directory(47-39), 页全局目录
+PUD： Page Upper Directory(38-30)，页上级目录
+PMD： page middle directory(29-21)，页中间目录
+PTE： page table entry(20-12)，页表项
 
-######   这样，一个64位的虚拟空间，就需要：2^9 个PGD + 2^9 个PUD + 2^9 个PMD + 2^9 个PTE = 2048个页表数据结构。现在的页表数据结构被扩展到了8byte。仅仅需要(2048*8=)16K就可以支持起(2^48 =)256T的进程地址空间。
-
-
-
-
+这样，一个64位的虚拟空间，就需要：2^9 个PGD + 2^9 个PUD + 2^9 个PMD + 2^9 个PTE = 2048个页表数据结构。现在的页表数据结构被扩展到了8byte。仅仅需要(2048*8=)16K就可以支持起(2^48 =)256T的进程地址空间。
 
 在Linux下,可以通过如下命令查看页大小.
 
@@ -140,18 +124,8 @@ PTE：page table entry(20-12)，页表项
 getconf PAGE_SIZE
 ```
 
-页表级数越少，虚拟地址到物理地址的映射会很快，但是需要管理的页表项会很多，能支持的地址空间也有限。相反页表级数越多，需要的存储的页表数据就会越少，而且能支持到比较大的地址空间，但是虚拟地址到物理地址的映射就会越慢。
-
-
-
-
-
-
-
-
-
-
-
 参考资料:
 
 https://zhuanlan.zhihu.com/p/37549063
+
+https://dreamgoing.github.io/linux%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.html
