@@ -22,7 +22,7 @@ if __name__ == "__main__":
         file.write("layout: post\n")
         file.write("title: " + title + "\n")
         file.write("date: "+ time.strftime("%Y-%m-%d %H:%M:%S +0800", lt) + "\n")
-        file.write("late_modified_at: " + time.strftime("%Y-%m-%d %H:%M:%S +0800", lt) + "\n")
+        file.write("last_modified_at: " + time.strftime("%Y-%m-%d %H:%M:%S +0800", lt) + "\n")
         file.write("tags: []\n")
         file.write("author: fakecore\n")
         file.write("author_url: \n")

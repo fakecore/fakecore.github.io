@@ -20,7 +20,7 @@ if __name__ == "__main__":
         for i in range(0,len(lines)):
             line = lines[i]
             if line.find("last_modified_at") != -1:
-                lines[i] ="late_modified_at: " + modified_time + "\n"
+                lines[i] ="last_modified_at: " + modified_time + "\n"
                 fn.close()
                 fn=open(file,"w+")
                 fn.writelines(lines)
