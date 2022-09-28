@@ -1,7 +1,7 @@
 # Setup
 title: fakecore
 description: A personal blog for writing techs and logging life.
-url: https://fakecore.me
+url: https://fakecore.me/
 avatar: /avatar.jpeg
 paginate: 5
 paginate_path: "page:num"
