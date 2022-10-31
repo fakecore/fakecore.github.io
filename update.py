@@ -16,6 +16,7 @@ if __name__ == "__main__":
         modified_time = time.strftime("%Y-%m-%d %H:%M:%S +0800", modTime)
         file = base+i
         fn = open(file,'r')
+        print(file)
         lines = fn.readlines()
         for i in range(0,len(lines)):
             line = lines[i]

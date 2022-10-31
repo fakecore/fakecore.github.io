@@ -2,7 +2,7 @@
 layout: post
 title: cpp-virtual-table
 date: 2022-10-17 17:32:00 +0800
-last_modified_at: 2022-10-20 16:19:33 +0800
+last_modified_at: 2022-10-20 16:19:45 +0800
 tags: []
 author: fakecore
 author_url: 
