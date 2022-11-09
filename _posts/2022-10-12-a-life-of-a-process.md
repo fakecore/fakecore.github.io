@@ -1,8 +1,8 @@
 ---
 layout: post
-title: a-life-of-a-process
+title: 程序的一生,从启动到消亡[TODO]
 date: 2022-10-12 10:15:00 +0800
-last_modified_at: 2022-10-31 11:02:04 +0800
+last_modified_at: 2022-11-09 16:47:44 +0800
 tags: []
 author: fakecore
 author_url: 
