@@ -1,11 +1,11 @@
 ---
 layout: post
-title: memcpy!你到底做了什么,为什么那么快!
+title: memcpy!为什么那么快!
 date: 2022-10-27 10:56:37 +0800
 last_modified_at: 2022-12-01 18:04:03 +0800
 tags: []
 author: fakecore
-author_url: 
+author_url:
 ---
 
 相信学过c/c++的对这个函数都不会陌生.拷贝一段内存时,我们通常会使用memcpy或者循环拷贝.
