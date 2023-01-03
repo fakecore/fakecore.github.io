@@ -9,7 +9,7 @@ description: 'A personal website for logging the techs and life'
 keywords:
 author: fakecore(dylan) 
 language: en
-timezone: CN
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -44,7 +44,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -97,7 +97,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Anisina
+#theme: Anisina
+theme: hexo-theme-Claudia
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
