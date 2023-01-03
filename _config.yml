@@ -98,7 +98,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: Anisina
-theme: hexo-theme-Claudia
+#theme: hexo-theme-Claudia
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
