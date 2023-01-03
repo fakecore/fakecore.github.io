@@ -2,3 +2,4 @@
 _site/
 .sass-cache/
 public/
+node_modules/
