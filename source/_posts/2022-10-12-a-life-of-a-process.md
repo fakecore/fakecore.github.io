@@ -3,9 +3,9 @@ layout: post
 title: 程序的一生,从启动到消亡[TODO]
 date: 2022-10-12 10:15:00 +0800
 last_modified_at: 2022-12-16 17:21:05 +0800
-tags: []
+tags: [linux,c++]
 author: fakecore
-author_url: 
+author_url:
 
 ---
 
@@ -95,7 +95,7 @@ main
 5. callq  5d5 <_Z4testxi> 调用0x5d5
    1. push %rbp 当前地址压入栈
     2. mov %rsp,%rbp 把rsp寄存器的值,存入rbp
-    3. mov    %rdi,-0x8(%rbp) 
+    3. mov    %rdi,-0x8(%rbp)
 6. mov    $0x0,%eax
 7. pop    %rbp 栈数据到rbp
 8. retq

@@ -3,9 +3,9 @@ layout: post
 title: cpp 对象模型(虚表解析)
 date: 2022-10-17 17:32:00 +0800
 last_modified_at: 2022-12-16 17:21:05 +0800
-tags: []
+tags: [c++]
 author: fakecore
-author_url: 
+author_url:
 
 ---
 
@@ -101,7 +101,7 @@ $72 = (void *) 0x0
 $73 = {
   <BaseC> = {
     _vptr.BaseC = 0xaaaaaaab1ca0 <vtable for DerivedD+16>
-  }, 
+  },
   <BaseD> = {
     _vptr.BaseD = 0xaaaaaaab1cc0 <vtable for DerivedD+48>
   }, <No data fields>}

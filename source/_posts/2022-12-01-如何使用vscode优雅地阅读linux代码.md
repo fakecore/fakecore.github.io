@@ -3,9 +3,9 @@ layout: post
 title: 如何使用vscode优雅地阅读linux代码
 date: 2022-12-01 17:53:41 +0800
 last_modified_at: 2022-12-16 17:21:05 +0800
-tags: [tech]
+tags: [tech,share]
 author: fakecore
-author_url: 
+author_url:
 ---
 
 

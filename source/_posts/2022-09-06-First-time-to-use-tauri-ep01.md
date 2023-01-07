@@ -1,10 +1,10 @@
 ---
-layout:post
-title:tauri使用记录01
-date:2022-09-06 12:00:00 +0800
-last_modified_at:2022-12-16 17:21:05 +0800
-tags:[tech,tauri]
-author:fakecore
+layout: post
+title: tauri使用记录01
+date: 2022-09-06 12:00:00 +0800
+last_modified_at: 2022-12-16 17:21:05 +0800
+tags: [tech,tauri]
+author: fakecore
 ---
 
 ## Installation

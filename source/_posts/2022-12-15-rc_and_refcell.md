@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  rust (Rc, RefCell) and( Arc, Mutex) 
+title:  rust (Rc, RefCell) and( Arc, Mutex)
 date: 2022-12-15 14:15:15 +0800
 last_modified_at: 2022-12-16 17:21:05 +0800
-tags: []
+tags: [rust]
 author: fakecore
-author_url: 
+author_url:
 ---
 
 
@@ -24,7 +24,7 @@ T is read-only
 
 only for use in single-threaded scenarios.
 
-*Interior mutability* is a design pattern in Rust that allows you to mutate data even when there are immutable references to that data; 
+*Interior mutability* is a design pattern in Rust that allows you to mutate data even when there are immutable references to that data;
 
 ### Rc<RefCell\<T>>
 
@@ -59,7 +59,7 @@ fn main() {
 
 ### Arc\<T>
 
-Fortunately, `Arc<T>` *is* a type like `Rc<T>` that is safe to use in concurrent situations. 
+Fortunately, `Arc<T>` *is* a type like `Rc<T>` that is safe to use in concurrent situations.
 
 Arc\<T>'s counter is atomic, So we can use it in concurrency.
 
@@ -67,7 +67,7 @@ Arc\<T>'s counter is atomic, So we can use it in concurrency.
 
 lock the variable access permission. thread-safe.
 
-### Arc<Mutex\<T>> 
+### Arc<Mutex\<T>>
 
 ```rust
 use std::sync::{Arc, Mutex};

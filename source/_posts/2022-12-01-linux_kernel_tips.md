@@ -3,9 +3,9 @@ layout: post
 title: linux_kernel_tips[TODO]
 date: 2022-12-01 13:10:02 +0800
 last_modified_at: 2022-12-16 17:21:05 +0800
-tags: []
+tags: [linux]
 author: fakecore
-author_url: 
+author_url:
 
 ---
 

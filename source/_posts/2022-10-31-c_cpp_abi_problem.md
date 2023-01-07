@@ -3,9 +3,9 @@ layout: post
 title: c/c++ ABI Problem
 date: 2022-10-31 10:45:10 +0800
 last_modified_at: 2022-12-16 17:21:05 +0800
-tags: []
+tags: [c++]
 author: fakecore
-author_url: 
+author_url:
 ---
 
 
@@ -44,7 +44,7 @@ gcc5.1之后会有abi问题.因为引入了c++11,为了保证向前兼容,额外
 3. 添加新的静态成员变量
 4. 修改成员变量名称（偏移量未改变）
 
-​	
+​
 
 
 
