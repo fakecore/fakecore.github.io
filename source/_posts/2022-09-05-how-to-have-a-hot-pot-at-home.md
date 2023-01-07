@@ -1,6 +1,6 @@
 ---
 layout: post
-title:
+title: How to have a hot pot at home
 date: 2022-09-05 12:00:00 +0800
 last_modified_at: 2022-12-16 17:21:05 +0800
 tags: [life]
