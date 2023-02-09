@@ -9,11 +9,25 @@ author_url:
 
 ---
 
+测试环境: Linux arm64 Debian
+
 ## 介绍
 
-本文基于Linux和cpp可执行文件,来讲述从cpp软件执行到软件执行结束都发生了什么.
+本文基于Linux和cpp可执行文件,来讲述可执行文件从开始到结束系统/硬件都做了什么事情.
 
 ## elf格式
+
+**ELF 全称 “Executable and Linkable Format”，即可执行可链接文件格式，目前常见的Linux、 Android可执行文件、共享库（.so）、目标文件（ .o）以及Core 文件（吐核）均为此格式。**
+
+### elf文件布局
+
+
+
+
+
+
+
+
 
 
 
@@ -46,11 +60,11 @@ main指令
 
 ​       指令地址:         指令机器码	     														指令机器码反汇编到的指令
 
-![image-20221031151751295](/Users/dylan/fakecore.github.io/assets/image-20221031151751295.png)
+![image-20221031151751295](../assets/image-20221031151751295.png)
 
 test函数
 
-![image-20221031151821182](/Users/dylan/fakecore.github.io/assets/image-20221031151821182.png)
+![image-20221031151821182](../assets/image-20221031151821182.png)
 
 简单术语说明
 
@@ -126,6 +140,5 @@ main
 
 
 ![img](https://pic1.zhimg.com/80/v2-8f2a02c38a3b53ce857b87ed01272b80_1440w.webp)
-
 
 
