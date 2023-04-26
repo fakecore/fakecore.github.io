@@ -73,7 +73,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
+    Title: "Hi, I am fakecore"
     Content: Welcome to my blog
 
   socialIcons:
