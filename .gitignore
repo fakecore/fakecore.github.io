@@ -3,3 +3,5 @@ _site/
 .sass-cache/
 public/
 node_modules/
+.hugo_build.lock
+resources/_gen/
