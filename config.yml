@@ -18,7 +18,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: ExampleSite
   description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
+  keywords: [Blog, Fakecore, Coder]
   author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -59,7 +59,7 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
+    title: Fakecore's Show
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
     imageWidth: 120
@@ -79,8 +79,6 @@ params:
   socialIcons:
     - name: twitter
       url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
     - name: github
       url: "https://github.com/fakecore"
 
@@ -88,8 +86,6 @@ params:
     google:
       SiteVerificationTag: "XYZabc"
     bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
       SiteVerificationTag: "XYZabc"
 
   cover:
@@ -122,6 +118,10 @@ menu:
       name: tags
       url: /tags/
       weight: 20
+    - identifier: aboutme
+      name: aboutme
+      url: /aboutme
+      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
