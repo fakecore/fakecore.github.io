@@ -3,7 +3,7 @@ title: "Rc和refcell"
 date: 2023-06-19T15:12:35+08:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+tags: ["linux","rust"]
 author: "fakecore"
 # author: ["Me", "You"] # multiple authors
 showToc: true

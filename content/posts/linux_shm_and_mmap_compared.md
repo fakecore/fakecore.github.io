@@ -3,7 +3,7 @@ title: "Linux下shm和mmap的比较"
 date: 2023-06-19T15:12:12+08:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+tags: ["linux"]
 author: "fakecore"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -116,9 +116,9 @@ shm_unlink: 关闭shm segement
        O_RDONLY
               Open the object for read access.  A shared memory object opened in this way can be
               mmap(2)ed only for read (PROT_READ) access.
-
+    
        O_RDWR Open the object for read-write access.
-
+    
        O_CREAT
               Create the shared memory object if it does not exist.  The user and  group  owner-
               ship  of  the object are taken from the corresponding effective IDs of the calling
@@ -127,15 +127,15 @@ shm_unlink: 关闭shm segement
               (see umask(2)) are cleared for the new object.  A set of macro constants which can
               be  used to define mode is listed in open(2).  (Symbolic definitions of these con-
               stants can be obtained by including <sys/stat.h>.)
-
+    
               A new shared memory object initially has zero length--the size of the  object  can
               be  set  using  ftruncate(2).  The newly allocated bytes of a shared memory object
               are automatically initialized to 0.
-
+    
        O_EXCL If O_CREAT was also specified, and a shared memory object with the given name  al-
               ready exists, return an error.  The check for the existence of the object, and its
               creation if it does not exist, are performed atomically.
-
+    
        O_TRUNC
               If the shared memory object already exists, truncate it to zero bytes.
 
@@ -179,16 +179,16 @@ int ftruncate(int fd, off_t length);
 
     The truncate()  and ftruncate() functions cause the regular file named by path or refer-
            enced by fd to be truncated to a size of precisely length bytes.
-
+    
     If the file previously was larger than this size, the extra data is lost.   If  the  file
        previously was shorter, it is extended, and the extended part reads as null bytes ('\0').
-
+    
        The file offset is not changed.
-
+    
        If  the  size  changed, then the st_ctime and st_mtime fields (respectively, time of last
        status change and time of last modification; see inode(7)) for the file are updated,  and
        the set-user-ID and set-group-ID mode bits may be cleared.
-
+    
        With  ftruncate(),  the  file must be open for writing; with truncate(), the file must be
        writable.
 

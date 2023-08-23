@@ -3,12 +3,12 @@ title: "GO Package 函数可见性,编译顺序分析"
 date: 2023-07-06T15:27:23+08:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+tags: ["go"]
 author: "fakecore"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false
+draft: true
 hidemeta: false
 comments: false
 description: "Desc Text."

@@ -3,12 +3,12 @@ title: "Runc分享01"
 date: 2023-06-19T15:12:50+08:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+tags: ["go","runc","docker"]
 author: "fakecore"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false
+draft: true
 hidemeta: false
 comments: false
 description: "Desc Text."
