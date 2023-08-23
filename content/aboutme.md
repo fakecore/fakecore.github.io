@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "Aboutme"
+date: 2023-08-23T15:27:21+08:00
 # weight: 1
 # aliases: ["/first"]
 tags: []
@@ -8,7 +8,7 @@ author: "fakecore"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: false
 description: ""
@@ -34,3 +34,7 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+
+大家好,我是fakecore.我人很懒
+
+@TODO 后续补充下
