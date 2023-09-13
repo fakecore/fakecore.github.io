@@ -1,6 +1,6 @@
 {{- if (eq (.Site.Params.disableComments | default false) false) -}}
     {{- if eq .Type "posts" -}}
-    <div style="width:60%;margin:0 auto">
+    <!-- <div style="width:50%; height: auto; margin:0 auto;"> -->
         <script src="https://giscus.app/client.js"
             data-repo="fakecore/fakecore.github.io"
             data-repo-id="R_kgDOHRTJdA"
@@ -17,6 +17,11 @@
             crossorigin="anonymous"
             async>
         </script>
-    </div>
+        <!-- <style>
+        .giscus, .giscus-frame {
+            width: 100%;
+        }
+        </style> -->
+    <!-- </div> -->
     {{- end -}}
 {{- end -}}
