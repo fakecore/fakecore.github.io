@@ -1,9 +1,9 @@
 ---
-title: "Docker 01 前言"
-date: 2023-09-13T16:40:58+08:00
+title: "Cgroup"
+date: 2023-11-13T16:45:34+08:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["docker"]
+tags: ["first"]
 author: "fakecore"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -11,7 +11,7 @@ TocOpen: false
 draft: true
 hidemeta: false
 comments: false
-description: ""
+description: "Desc Text."
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
@@ -35,4 +35,9 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-最近在学习docker相关的技术,发现市面没有很好的文档,从来到尾来介绍docker的发展历史,架构,运行,等等. 希望能用几篇系列文章来分享记录下,自己对于docker的认知
+最近工作重心是k8s,docker. 借机了解了下cgroup相关的知识内容.
+
+今天会用短短的篇幅介绍下Linux cgroup v1和v2. 主要涉及hierarchy和资源控制.
+
+## 什么是cgroup?
+
