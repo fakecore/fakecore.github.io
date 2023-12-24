@@ -35,6 +35,18 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-大家好,我是fakecore.我人很懒
+大家好,我是fakecore.
 
-@TODO 后续补充下
+严重拖延症(@TODO 后续补充下)
+
+好了好了不开玩笑啦.
+
+我目前就职于一家小厂,主要做gpu operator的infra项目
+
+技术栈经验:
+
+cpp 6/10
+
+go 5/10
+
+cloud-native 5/10
