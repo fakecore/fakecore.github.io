@@ -1,6 +1,5 @@
-{{- if (eq (.Site.Params.disableComments | default false) false) -}}
-    <!-- {{- if eq .Type "posts" -}} -->
-    <div style="width:50%; height: auto; margin:0 auto;">
+<div id="comment">
+    <div style="width:100%; height: auto; margin:0 auto;">
         <script src="https://giscus.app/client.js"
             data-repo="fakecore/fakecore.github.io"
             data-repo-id="R_kgDOHRTJdA"
@@ -23,5 +22,4 @@
         }
         </style>
     </div>
-    <!-- {{- end -}} -->
-{{- end -}}
+</div>
