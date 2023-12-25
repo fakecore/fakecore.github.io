@@ -86,6 +86,9 @@ params:
       url: "https://twitter.com/fakecore_core"
     - name: github
       url: "https://github.com/fakecore"
+    - name: email
+      url: mailto:flowunlight@gmail.com
+
 
   analytics:
     google:
