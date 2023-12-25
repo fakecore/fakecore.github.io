@@ -79,7 +79,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi, I am fakecore"
-    Content: Welcome to my blog
+    Content: Don't waver, bravely jump down or climb up. (别踌躇不前,勇敢的跳下去或爬上来)
 
   socialIcons:
     - name: twitter
