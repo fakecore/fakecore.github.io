@@ -10,7 +10,7 @@ showToc: true
 TocOpen: false
 draft: true
 hidemeta: false
-comments: false
+comments: true
 description: "Desc Text."
 disableHLJS: true # to disable highlightjs
 disableShare: false

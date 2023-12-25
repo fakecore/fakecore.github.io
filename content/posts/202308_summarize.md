@@ -10,7 +10,7 @@ showToc: true
 TocOpen: false
 draft: false
 hidemeta: false
-comments: false
+comments: true
 description: ""
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -53,7 +53,7 @@ k8s/docker基本概念都理清了,具体的细节还需要在学习学习
 - [ ] k8s
 - [ ] controller-runtime sdk相关
 - [ ] docker
-- [ ] runc 
+- [ ] runc
 - [x] go基础
 - [ ] go进阶(高级用法)
 - [ ] go底层
