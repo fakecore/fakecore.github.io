@@ -55,9 +55,9 @@ editPost:
 这种方法提供了对资源卸载顺序的更精细控制，确保在删除过程中执行必要的清理和资源释放操作。通过这种方式，我们可以有效地避免因依赖资源提前删除导致的清理失败。
 
 ### 流程图解析
-![](/helm_uninstall.png)
+![](/using_finalizers_to_control_uninstall_order_正常helm执行卸载.png)
 - **图一** 展示了不使用 finalizers 和 pre-delete hook 的标准 Helm 卸载流程。
-![](/helm_uninstall_with_finalizers.png)
+![](/using_finalizers_to_control_uninstall_order_使用finalizers控制卸载后.png)
 - **图二** 展示了引入 finalizers 和 pre-delete hook 后的优化流程。
 
 ### 结论
