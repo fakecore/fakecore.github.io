@@ -1,7 +1,7 @@
 baseURL: "https://fakecore.me/"
 title: fakecore
 paginate: 8
-theme: PaperMod
+theme: PaperModX
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -40,6 +40,7 @@ params:
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   showtoc: true
+  TocSide: 'left'  # or 'right'
   tocopen: true
   disableSpecial1stPost: false
   disableScrollToTop: false
