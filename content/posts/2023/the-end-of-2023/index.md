@@ -7,7 +7,7 @@ tags: []
 author: "fakecore"
 # author: ["Me", "You"] # multiple authors
 showToc: true
-TocOpen: false
+TocOpen: true
 draft: false
 hidemeta: false
 comments: true
@@ -59,13 +59,4 @@ Hi,大家好,我是fakecore.
 
 第五. 答案是""?
 
-
-
-![](/teo2023_summrize.png)
-
-
-
-
-
-
-
+![](teo2023_summrize.png)

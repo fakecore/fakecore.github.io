@@ -6,8 +6,9 @@ tags: ["k8s"]
 author: "fakecore"
 # author: ["Me", "You"] # multiple authors
 showToc: true
-TocOpen: false
+TocOpen: true
 draft: false
+UseHugoToc: true
 hidemeta: false
 comments: true
 description: ""
@@ -21,7 +22,6 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
-UseHugoToc: true
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text
@@ -55,9 +55,9 @@ editPost:
 这种方法提供了对资源卸载顺序的更精细控制，确保在删除过程中执行必要的清理和资源释放操作。通过这种方式，我们可以有效地避免因依赖资源提前删除导致的清理失败。
 
 ### 流程图解析
-![](/using_finalizers_to_control_uninstall_order_正常helm执行卸载.png)
+![](without_finalizers.png)
 - **图一** 展示了不使用 finalizers 和 pre-delete hook 的标准 Helm 卸载流程。
-![](/using_finalizers_to_control_uninstall_order_使用finalizers控制卸载后.png)
+![](with_finalizers.png)
 - **图二** 展示了引入 finalizers 和 pre-delete hook 后的优化流程。
 
 ### 结论

@@ -45,9 +45,7 @@ docker就是用cgroup技术进行container的资源限制
 
 ## cgroup的历史与演变
 
-![cgroup-history](/linux-cgroup.assets/cgroup-history-1694748942837-2.png)
-
-
+![cgroup-history](cgroup-history.png)
 
 ## cgroup v1
 
