@@ -1,6 +1,6 @@
 baseURL: "https://fakecore.me/"
 title: fakecore
-paginate: 6
+paginate: 8
 theme: PaperMod
 
 enableRobotsTXT: true
