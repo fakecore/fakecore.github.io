@@ -36,9 +36,15 @@ params:
   ShowToc: true
   TocOpen: true
   TocSide: "right"
-  EnableInstantClick: true
+  EnableInstantClick: false
   EnableImageZoom: true
   comments: true
+  commentSystems:
+    disqus:
+      shortname: fakecore
+    defaultCommentSystems:
+      disqus: true
+
   profileMode:
     enabled: false
     title: fc
