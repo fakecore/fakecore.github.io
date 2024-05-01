@@ -21,7 +21,7 @@ params:
   disableAnchoredHeadings: true
   images: ["cover.png"]
   DateFormat: "2006-01-02"
-  useCustomAnalytics: false
+  useCustomAnalytics: true
 
   defaultTheme: auto
   # disableThemeToggle: true
