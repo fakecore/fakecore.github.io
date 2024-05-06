@@ -118,11 +118,11 @@ languages:
         # - name: Newsletter
         #   url: /newsletter/
         #   weight: 1
-        - name: Tags
-          url: /tags/
-          weight: 4
         - name: Archive
           url: /archives/
+          weight: 4
+        - name: Tags
+          url: /tags/
           weight: 5
         - name: Search
           url: /search/
@@ -149,11 +149,11 @@ languages:
         # - name: 文档
         #   url: docs
         #   weight: 1
-        - name: 标签
-          url: tags/
-          weight: 4
         - name: 归档
           url: archives
+          weight: 4
+        - name: 标签
+          url: tags/
           weight: 5
         - name: 搜索
           url: search/
