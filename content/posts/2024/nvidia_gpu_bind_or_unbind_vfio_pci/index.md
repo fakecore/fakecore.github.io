@@ -34,7 +34,7 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-## NVidia's solution
+## NVIDIA's solution
 
 In the GPU-Operator solution, there is a VFIO-Manager component that supports unbinding the GPU device from either the `GPU driver` or the `VFIO-PCI driver`, and binding it to the `VFIO-PCI driver`. The VFIO-Manager is controlled by the `vfio-manage.sh` script.
 
@@ -96,6 +96,7 @@ If a specific GPU is specified, unbind only that GPU; otherwise, unbind all devi
 Find all devices under `/sys/bus/pci/device`, check if the device manufacturer equals `0x10de`. If true, get the vendor ID and sequentially unbind each GPU.
 
 > \[!tip\] vendor number
+>
 > NVIDIA device vendorID is 0x10de
 
 **unbind target GPU**
